@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+
+    <!--css personalizado-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- usar boxicons-->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- fuentes de google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--header design-->
+    <header class="sticky">
+      <a href="#" class="logo">TEACH<span>match</span></a>
+
+      <ul class="h-right">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#about">Sobre Nosotros</a></li>
+        <li><a href="#infor">información</a></li>
+        <li><a href="#taxes">Planes</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </header>
+    
+    <!--seccion inicio-->
+    <section class="home">
+      <div class="home-text">
+        <h1>
+          Tu mejor clase empieza <br />
+          con un <span>match</span>
+          </h1>
+        <p>
+          Producto patentado por EduTalent <br />
+        </p>
+        <a href="#" class="btn">Mas información</a>
+      </div>
+    </section>
+
+    <!--seccion sobre nosotros-->
+    <section>
+      <div id="about" class="nosotros-content">
+        <div class="row">
+          <div class="row-img">
+            <img src="img/Tony Torres.png" />
+          </div>
+          <h4>Torres Cortez, Tony Do Santos</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="img/Luis Sebastián Rubio Ortiz.jpg" />
+          </div>
+          <h4>Rubio Ortiz, Luis Sebastian</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="img/Jean.jpeg" />
+          </div>
+          <h4>Jean Pool Huaman De La Cruz</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="img/nap4.png" />
+          </div>
+          <h4>Dev:</h4>
+        </div>
+
+        <div class="row">
+          <div class="row-img">
+            <img src="img/nap5.png" />
+          </div>
+          <h4>Dev:</h4>
+        </div>
+      </div>
+    </section>
+
+    <!--Informacion-->
+    <section id="infor" class="informacion">
+      <div class="holiday-img">
+        <img src="img/seccion-informacion.webp" />
+      </div>
+
+      <div class="holiday-text">
+        <h5>¿Como funciona TEACHmatch</h5>
+        <p>
+       TeachMatch está diseñado para optimizar el proceso de selección y seguimiento del personal docente en una institución educativa. NUestra plataforma gestiona vacantes docentes, filtrando postulantes según experiencia y evaluándolos con pruebas y entrevistas automatizadas. Tras la contratación, ofrece capacitación, seguimiento de desempeño y gestión documental. Automatiza la asignación de horarios según perfil y disponibilidad. Finalmente, permite evaluaciones continuas y generación de reportes de rendimiento.
+        </p>
+        <a href="#" class="btn">Saber más</a>
+      </div>
+    </section>
+
+    <!--seccion planes-->
+    <section id="taxes" class="tour">
+      <div class="center-text">
+        <h2>Planes de pago</h2>
+      </div>
+
+      <div class="tour-content" >
+        <div class="box">
+          <img src="img/Free.png" />
+          <h6><ul>
+            <li>- Publicación de vacantes limitados</li>
+            <li>- Gestion de contratos limitados</li>
+            <li>- Horarios predefinidos</li>
+          </ul></h6>
+          <h4>Plan EDUfree</h4>
+        </div>
+
+
+        <div class="box">
+          <img src="img/Premium2.png" />
+          <h6><ul>
+            <li>- Publicación de vacantes en tiempo real</li>
+            <li>- Gestion de contratos en tiempo real</li>
+            <li>- Horarios mas flexibles y filtros personalizados</li>
+            <li>- Acceso a todas las funciones de la plataforma sin restriccion alguna</li>
+          </ul></h6>
+          <h4>Plan EDUnova</h4>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!--Seccion contactanos-->
+    <section id="contact" class="newsletter">
+      <div class="newsletter-content">
+        <div class="newsletter-text">
+          <h2>Listo para hacer match?</h2>
+          <p>Añade tu correo y te enviaremos informacion referido a nuestro proyecto</p>
+        </div>
+
+        <form action="">
+          <input type="email" placeholder="Ingresa tu correo" required />
+          <input type="submit" value="Get started" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+    <div class="footer-box">
+      <h3>Redes Sociales
+      </h3>
+      <div class="social">
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+      </div>
+    </div>
+  </section>
+
+    <!--seccion copyright-->
+    <div class="copyright">
+      <p>Copyright 2025 By "EduTalent"</p>
+    </div>
+
+    <!--carga del archibo js script-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
